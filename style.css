@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  height: 350px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: auto;
+}
+
+.card-head {
+  height: 100px;
+  width: 300px;
+  border-bottom: 1px solid black;
+  background-color: black;
+  border-radius: 7px;
+  align-items: center;
+  text-align: center;
+}
+
+#profileImg {
+  height: 70px;
+  width: 70px;
+  border: none;
+  border-radius: 50%;
+  margin: 45px;
+}
+
+.card-body {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  border-radius: 7px;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#nameTitle,#jobTitle{
+  color: blue;
+  font-size: 18px;
+}
+
+#gitButton, #igButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+#gitButton:hover {
+  background-color: purple;
+  color: #322f2f;
+  transition: 1.5s background-color;
+  cursor: pointer;
+}
+
+#igButton:hover {
+  background-color: #c12588;
+  color: #4725c1;
+  transition: 1.5s background-color;
+  cursor: pointer;
+}
+
+#portButton {
+  height:30px;
+  width: 200px;
+  color: white;
+  border: none;
+  background-color: #5656f0;
+  font-size: 18px;
+  border-radius: 16px;
+  cursor:pointer;
+}

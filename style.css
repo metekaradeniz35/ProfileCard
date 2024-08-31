@@ -61,15 +61,15 @@ body {
 }
 
 #gitButton:hover {
-  background-color: purple;
-  color: #322f2f;
+  background-color: #5656f0;
+  color: black;
   transition: 1.5s background-color;
   cursor: pointer;
 }
 
 #igButton:hover {
-  background-color: #c12588;
-  color: #4725c1;
+  background-color: #5656f0;
+  color: black;
   transition: 1.5s background-color;
   cursor: pointer;
 }
